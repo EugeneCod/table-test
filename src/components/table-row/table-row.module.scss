@@ -1,0 +1,6 @@
+.tr {
+  display: grid;
+  grid-template-columns: 34% 1fr 1fr 1fr;
+  column-gap: 4px;
+  cursor: pointer;
+}

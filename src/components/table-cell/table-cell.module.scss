@@ -1,0 +1,38 @@
+.td {
+  background-color: #dfdfdf;
+  display: grid;
+  padding: 7px 14px;
+
+  &.center {
+    justify-items: center;
+  }
+
+  &.right {
+    justify-items: end;
+    padding-right: 2rem;
+  }
+
+  &.with-percents {
+    grid-template-columns: 1fr 2.5rem;
+    column-gap: 1rem;
+  }
+
+  &.blue {
+    background-color: #d7fffd;
+  }
+  &.green {
+    background-color: #b2ffd5;
+  }
+  &.red {
+    background-color: #ffb9b5;
+  }
+}
+
+.percents {
+  &.green {
+    color: #00862f;
+  }
+  &.red {
+    color: #a20800;
+  }
+}

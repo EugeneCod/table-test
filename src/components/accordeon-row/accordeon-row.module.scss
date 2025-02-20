@@ -1,0 +1,11 @@
+.collapse-block {
+  height: 0;
+  overflow: hidden;
+  transition: height linear 0.3s;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}

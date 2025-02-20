@@ -1,0 +1,10 @@
+.root {
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
